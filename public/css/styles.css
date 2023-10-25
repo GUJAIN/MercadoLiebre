@@ -1,1 +1,122 @@
+@import url(./general.css);
+
+body h2{
+    font-size: 24px;
+}
+body h3{
+    font-size: 18px;
+}
+body h4{
+    font-size: 16px;
+}
+body p{
+    font-size: 12px;
+}
+
+.home_header{
+    
+    background-color: var(--color-amarillo);
+}
+.logo{
+    width: 50vw;
+    margin: 30px 0px 15px 20px;
+    padding: 5px ;
+}
+.buscador input{
+    display: block;
+    width: 60vw;
+}
+.buscador i{
+    margin-top: 10px;
+}
+.buscador{
+    margin: 0px 0px 15px 15px;
+}
+body header p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.lista2 li a{
+    margin-right: 5px;
+}
+article{
+    
+    align-items: center;
+}
+
+.burger_menu{
+    text-align: center;
+   
+}
+.burger_menu span{
+    
+    padding: 8px;
+    margin: 5px;
+    background-color:var(--color-celeste);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.burger_menu i{
+    margin: 40px 0;
+    color:white ;
+    
+    
+}
+
+
+
+.home_banner{
+    height: 40%;
+    width: 100%;
+    margin:0px 0px 10px 0px;
+
+}
+.home_banner img{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: var(--color-grisclaro);
+}
+main section article{
+    text-align: center;
+    margin: 20px 5px;
+}
+.precio{
+    font-size: 18px;
+
+}
+main section h2{
+    text-align: center;
+}
+main article h4{
+    text-align: center;
+}
+
+
+
+
+
+footer section {
+    text-align: center;
+}
+{
+   
+}
+.sec_footer{
+    margin: 30px 0;
+}
+.sec_footer i{
+    margin: 10px 0;
+    color: var(--color-celeste);
+}
+.txt_footer{
+    margin-top: 20px;
+}
+.icon{
+   
+}
+
 

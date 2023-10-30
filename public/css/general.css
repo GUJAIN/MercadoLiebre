@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
+@import url(/public/css/reponsive.css);
 :root{
     --color-amarillo:#EAC926;
     --color-azul:#03264C;
@@ -16,4 +16,8 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 12px;
+    font-weight: bolder;
 }

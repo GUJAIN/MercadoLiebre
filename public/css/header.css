@@ -1,0 +1,65 @@
+body h2{
+    font-size: 24px;
+}
+body h3{
+    font-size: 18px;
+}
+body h4{
+    font-size: 16px;
+}
+body p{
+    font-size: 12px;
+}
+
+.home_header{
+    
+    background-color: var(--color-amarillo);
+}
+.logo{
+    width: 50vw;
+    margin: 30px 0px 15px 20px;
+    padding: 5px ;
+}
+.buscador input{
+    display: block;
+    width: 60vw;
+}
+.buscador i{
+    margin-top: 10px;
+}
+.buscador{
+    margin: 0px 0px 15px 15px;
+}
+body header p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.lista2 li a{
+    margin-right: 5px;
+}
+article{
+    
+    align-items: center;
+}
+
+.burger_menu{
+    text-align: center;
+   
+}
+.burger_menu span{
+    
+    padding: 8px;
+    margin: 5px;
+    background-color:var(--color-celeste);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.burger_menu i{
+    margin: 40px 0;
+    color:white ;   
+}
+.nav__home{
+    display: none;
+}

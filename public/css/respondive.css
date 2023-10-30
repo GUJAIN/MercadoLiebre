@@ -1,0 +1,31 @@
+@media (min-width: 768px ){
+    section{
+    display: flex; 
+    flex-direction: column;   
+    }
+    main section article{
+
+        border: 1px solid #ebebeb;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .nav__home{
+        display: block;
+    }
+    .burger_menu span{
+        display: none;
+        padding: 8px;
+        margin: 5px;
+        background-color:var(--color-celeste);
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    .header__article{
+        text-align: center;
+    }
+    .descripcion{
+        display: block;
+    
+    }
+
+     
+}

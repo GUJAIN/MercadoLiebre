@@ -1,12 +1,27 @@
 @media (min-width: 768px ){
-    section{
-    display: flex; 
-    flex-direction: column;   
+    .header__section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
     }
-    main section article{
+    .header__nav__home{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .header__nav__home ul li {
+        display: inline-block;
+        padding-bottom: 5%;
+        margin:0px 5px;
+    }
 
-        border: 1px solid #ebebeb;
-        box-shadow: 0px 0px 10px rgb(100,100,100);
+   
+    
+    .home__titulo{
+        display: inline;
+        text-align:left;
+        margin-left: 10px;
     }
     .nav__home{
         display: block;
@@ -22,6 +37,31 @@
     .header__article{
         text-align: center;
     }
+
+    /*.home__titulo__responsive{
+        display: block;
+        text-align:left;
+    }*/
+    section{
+        display: flex; 
+        flex-direction: column;
+           
+        }
+    main section article{
+        width: 50%;
+        border: 1px solid #ebebeb;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .main__section{
+        flex-direction: row;
+       
+    }
+    .section__ultima__vista{
+        
+
+    }
+    
+    
     .descripcion{
         display: block;
     
@@ -29,3 +69,54 @@
 
      
 }
+/*DESKOP 1024*/
+
+/*@media(min-width: 1024px){
+    section{
+        display: flex; 
+        flex-direction: column;
+           
+        }
+        .home__titulo{
+            display: none;
+            text-align:center;
+        }
+        .home__titulo{
+            display: inline;
+            text-align:left;
+            margin-left: 10px;
+        }
+    
+        .home__titulo__responsive{
+            display: block;
+            text-align:left;
+        }
+    
+        .main__section{
+            flex-direction: row;
+        }
+        main section article{
+            
+            border: 1px solid #ebebeb;
+            box-shadow: 0px 0px 10px rgb(100,100,100);
+        }
+        .nav__home{
+            display: block;
+        }
+        .burger_menu span{
+            display: none;
+            padding: 8px;
+            margin: 5px;
+            background-color:var(--color-celeste);
+            border: 1px solid;
+            border-radius: 5px;
+        }
+        .header__article{
+            text-align: center;
+        }
+        .descripcion{
+            display: block;
+        
+        }
+}*/
+

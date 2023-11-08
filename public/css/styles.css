@@ -3,21 +3,24 @@
 @import url(./respondive.css);
 
 
-/* franja del baner*/
+/* franja del baner
+------------------------------------------------*/
 
 .home_banner{
     height: 40%;
     width: 100%;
-    margin:0px 0px 10px 0px;
+   
 
 }
 .home_banner img{
-    height: 100%;
+    
     width: 100%;
+    border:  1px solid black;
 }
 
 
-/* Parte del Main*/
+/* Parte del Main
+-----------------------------------------------*/
 
 
 main{
@@ -25,18 +28,18 @@ main{
    
 }
 .home__main__titulo__h2{
-    text-align:center;
+    text-align:center;  
 }
-main section article{
+.main__article__producto{
     text-align: center;
     margin: 10px 10px 0px 10px;
     background-color: #fff;
-   
+    
 }
 .producto_detalles{
     text-align: left;
     border-top: 1px solid #ebebeb;
-    position: relative;
+    position:relative ;
     padding: 2% 0;
 }
 .logo__envio i{
@@ -45,11 +48,11 @@ main section article{
     padding: 3% 1%;
     width: 30px;
     height: 30px;
-    position: absolute;
+    position:absolute ;
     border:1px solid #0c7605 ;
     border-radius: 50%;
     right: 15%;
-    bottom: 55%;   
+    bottom: 55%; 
 }
 .precio{
     font-size: 18px;

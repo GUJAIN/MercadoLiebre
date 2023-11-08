@@ -14,13 +14,23 @@ body p{
 .home_header{
      background-color: var(--color-amarillo);
 }
+.header__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    padding: 5% 0; 
+}
 .logo{
-    width: 40vw;   
+    width: 50vw;   
 }
 .header__form {
     display: flex;
     justify-content: center;
     align-items: center; 
+    width: 230px;
+    height: 120px;
+    padding-top: 2%;
 }
 
 .header__form input{
@@ -30,16 +40,9 @@ body p{
     border-radius: 8px;
     margin-right: 3px;
 }
-.header__section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    padding: 5% 0; 
-}
-
 .header__article{
     margin-top: 5%;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .lista2 li a{

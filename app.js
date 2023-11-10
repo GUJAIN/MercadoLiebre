@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-
+const bodyParser = require("body-parser")
 
 app.use(express.static(path.join(__dirname,'./public')));
+app.use(bodyParser.urlencoded({ extended: false}))
+app.use(bodyParser.json())
 
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/home.html'))
@@ -13,6 +15,15 @@ app.get('/views/register.html',(req,res)=>{
 })
 app.get('/views/login.html',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/login.html'))
+})
+
+app.post("/register",(req,res) => {
+    console.log(req.body);
+    res.redirect("/login");
+})
+app.post("/login",(req,res) => {
+    console.log(req.body);
+    res.redirect("/");
 })
 
 app.listen(3000,()=>{

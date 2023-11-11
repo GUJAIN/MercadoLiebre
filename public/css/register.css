@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-registro .form-registro div{
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+.main-registro input,label{
+    cursor: pointer;
+}
+.titulo-registro{
+    text-align: center;
+    padding: 5%;
+}
+.form-registro{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0  auto ;
+    padding: 2%;
+    border: 1px solid black;
+    box-shadow: 10px 5px 10px  black ;
+}
+.form-registro label{
+    display: block;
+    padding: 1%;
+}
+.form-registro input{
+    width: 80%;
+    padding: 1%
+}
+.eleccion-perfil{
+    display: none;
+}
+.perfil-registro{
+    border-top: 1px solid black;
+}
+.perfil-registro h3{
+    margin: 5% 0;
+    padding: 2% 0;
+}
+.categoria-registro{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.categoria-de-interes{
+    border: 1px solid black;
+    margin: 5% 0;
+    padding: 2% 0;
+    font-size: 1rem;
+    font-weight: bold;  
+
+}
+/*#intereses{
+    padding: 5% 0;
+    display: block;
+}*/
+.categoria-p{
+    margin: 5px 0;
+    padding: 2% 0;
+    font-size: 1rem;
+}
+.foto-registro{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.foto-registro label{
+    margin: 5% 0;
+    padding: 2% 0;
+    font-size: 18px;
+    font-weight: bold;
+} 
+ .form-registro button{
+    margin: 5% 0;
+    padding: 2% 0;
+    background: var(--color-celeste);
+    width:30%;
+
+ } 
+ .form-registro button:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+    color: var(--color-amarillo);
+ }
+ .boton-registro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+ }
+ @media(min-width: 768px){
+    .eleccion-perfil{
+        display: block;
+        background-color: var(--color-celeste);
+        color:var(--color-amarillo); ;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+ }
+ @media(min-width: 1024px){
+    .form-registro{
+        font-size: 1.5rem;
+    }
+    
+    .perfil-registro h3{
+        font-size: 1.5rem;
+    }
+    .perfil-registro, .eleccion-perfil{
+        font-size: 1.5rem;
+    }
+    .categoria-de-interes, .categoria-p{
+       font-size: 1.5rem;
+    }
+    .form-registro label, input{
+        font-size: 1.5rem;
+    }
+    .boton-registro button{
+        font-size: 1.5rem;
+    }
+ }

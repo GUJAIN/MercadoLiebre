@@ -10,10 +10,10 @@ app.use(bodyParser.json())
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/home.html'))
 })
-app.get('/views/register.html',(req,res)=>{
+app.get('/register',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/register.html'))
 })
-app.get('/views/login.html',(req,res)=>{
+app.get('/login',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/login.html'))
 })
 

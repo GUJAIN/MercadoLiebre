@@ -50,55 +50,59 @@
             </article>  
     </header>
 
-    <main>
-        <h1>Formulario de registro</h1>
-        <form action="/register.html" method="post">
-            <div>
+    <main class="main-registro">
+        <h1 class="titulo-registro">Formulario de registro</h1>
+        <form class="form-registro" action="/register" method="POST">
+            <div class="nombre-registro">
                 <label for="nombre">Nombre y Apellido</label>
                 <input type="text" id="nombre" name="nombre" required>
             </div>
-            <div>
+            <div class="usuario-registro">
                 <label for="nombre-usuario">Nombre de Usuario</label>
                 <input type="text" id="nombre-usuario" name="nombre-usuario" required>
             </div>
-            <div>
+            <div class="contraseña-registro">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <div class="email-registro">
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <div>
+            <div class="fecha-registro">
                 <label for="fecha">Fecha de nacimiento</label>
                 <input type="date" id="fecha" name="fecha" value="" required>
             </div>
-            <div>
+            <div class="domicilio-registro">
                 <label for="domicilio">Domicilio</label>
                 <input type="text" id="domicilio" name="domicilio" required>
             </div>
-            <div>
+            <div class="perfil-registro">
                 <h3>Perfil de usurio</h3>
+                <h3 class="eleccion-perfil">Que deceas hacer? Vender o comprar?!</h3>
                 <label for="perfil">comprador</label>
                 <input type="radio" id="perfil" name="perfil">
                 <label for="perfil">vendedor</label>
                 <input type="radio" id="perfil" name="perfil">
             </div>
-            <div>
+            <div class="categoria-registro">
                 
-                <label for="Intereses">Categoria de intereses</label>
-                <input type="checkbox" id="Intereses" name="Intereses"><p>Electro</p>
-                <input type="checkbox" id="Intereses" name="Intereses"><p>Moda</p>
-                <input type="checkbox" id="Intereses" name="Intereses"><p>Hogar</p>
-                <input type="checkbox" id="Intereses" name="Intereses"><p>Jugueteria</p>
-                <input type="checkbox" id="Intereses" name="Intereses"><p>Vida Sana</p>
+                <label  class="categoria-de-interes" for="intereses">Categoria de intereses</label>
+                <input class="input-categoria"  type="checkbox" id="intereses" name="intereses"><p class="categoria-p" >Electro</p>
+                <input class="input-categoria"  type="checkbox" id="intereses" name="intereses"><p class="categoria-p" >Moda</p>
+                <input class="input-categoria"  type="checkbox" id="intereses" name="intereses"><p class="categoria-p" >Hogar</p>
+                <input class="input-categoria"  type="checkbox" id="intereses" name="intereses"><p class="categoria-p" >Jugueteria</p>
+                <input class="input-categoria"  type="checkbox" id="intereses" name="intereses"><p class="categoria-p" >Vida Sana</p>
             </div>
-            <div>
+            <div class="foto-registro">
                 <label for="foto">Foto de usuario</label>
                 <input type="file" id="foto" name="foto" accept="image/*" required>
-            </div><div>
-                <label for="contraseña">Contraseña</label>
-                <input type="password" id="contraseña" name="contraseña" required>
             </div>
-            <button type="submit">Registrarse</button>
-            <button type="reset">Reset</button>
-           
+            <div class="boton-registro">
+                <button type="submit">Registrarse</button>
+                <button type="reset">Reset</button>
+            </div>
+            
         </form>
     </main>
 

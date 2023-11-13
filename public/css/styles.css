@@ -35,8 +35,9 @@ main{
     text-align: center;
     margin: 10px 10px 0px 10px;
     background-color: #fff;
-    
+    transition: all 0.8s;
 }
+
 .producto_detalles{
     text-align: left;
     border-top: 1px solid #ebebeb;
@@ -53,8 +54,19 @@ main{
     border:1px solid #0c7605 ;
     border-radius: 50%;
     right: 15%;
-    bottom: 55%; 
+    bottom: 81%;
+    
 }
+.main__article__producto:hover{
+    box-shadow: 10px 20px 20px black;
+}
+.logo__envio i{
+    transition: all 0.8s;
+}
+.logo__envio i:hover{
+    transform: rotatez(-90deg) ; 
+}
+
 .precio{
     font-size: 18px;
     display:inline-block;
@@ -67,7 +79,9 @@ main{
 .descripcion{
     display: none;
 }
-
+.producto_detalles .descripcion:hover{
+    display: initial;
+}
 /*Parte del Footer*/
 
 
@@ -95,6 +109,10 @@ footer section article i{
     margin: 30px 0px 20px 0px;
     color: var(--color-celeste);
     font-size: 2em;
+    transition: all 0.8s;
+}
+footer section article i:hover{
+    color: var(--color-azul);
 }
 
 

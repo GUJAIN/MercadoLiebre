@@ -33,14 +33,15 @@
     padding: 5%;
     width: 40%;
     display: inline-block;
-   background:var(--color-celeste) ;
-   transition: all 0.8;
-   font-weight: 800;
-   font-size: large;
+    background:var(--color-grisoscuro);
+    transition: all 0.8;
+    font-weight: 800;
+    font-size: large;
 }
 .boton-login-enviar:hover{
     transform: scale(1.2);
     color: var(--color-amarillo);
+    background: #0022AA;
 }
 /*-------------------------------------------*/
 @media(min-width: 768px){
@@ -50,7 +51,7 @@
     padding: 3%;
     width: 30%;
     display: inline-block;
-   background:var(--color-celeste) ;
+   background:var(--color-grisoscuro) ;
    transition: all 0.8s;
    font-weight: 800;
    font-size: large;
